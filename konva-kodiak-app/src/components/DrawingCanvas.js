@@ -2,7 +2,7 @@ import React from "react";
 import { Stage, Image, Layer } from "react-konva";
 
 export default function DrawingCanvas() {
-  const svgContent = require("./IHS_bkg.png").default; // Import your SVG as a module
+  const svgContent = require("./IHS_blue_svg.svg").default; // Import your SVG as a module
   return (
     <Stage width={600} height={400}>
       <Layer>
